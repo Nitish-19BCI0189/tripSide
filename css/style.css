@@ -1,0 +1,89 @@
+.carousel-item img{
+  height:95vh;
+}
+body{
+  /* padding-top:-50px; */
+  /* background-color: 	#211a23; */
+  background-color: #f6f4e6 ;
+  color:white;
+  width:100%;
+}
+.heading .text-center{
+    padding-top:15%;
+    font-family: 'Lacquer', sans-serif;
+    font-size: 4rem;
+  }
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+  }
+h6{
+    font-family: 'Saira Semi Condensed', sans-serif;
+  }
+.place-details{
+  font-family: 'Open Sans', sans-serif;
+  }
+.container{
+    padding-bottom: 10%;
+  }
+.abc{
+  height:100vh;
+  position: relative;
+    }
+.abc img{
+  height: 100vh;
+  width:100%;
+        }
+.bg{
+  background-color: transparent;
+   }
+.navbar{
+  width:100%;
+  transition: all 1.5s;
+       }
+.container1{
+  background: url("../images/abc.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color:black;
+           }
+.row{
+  width:100%;
+  margin-right:0;
+   }
+.container2{
+  background: url("../images/rt.jfif");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 180px;
+}
+.heading1 {
+  font-family: 'Gotu', sans-serif;
+  overflow: hidden;
+  /* font-size: 100px; */
+}
+.h1{
+  text-align: right;
+  font-size: 100px;
+}
+.h2{
+  text-align: left;
+  font-size: 100px;
+}
+@media(max-width:768px)
+{ .abc{
+  height: 50vh;
+}
+  .abc img{
+    height:50vh;
+  }
+  .h1 , .h2{
+    font-size: 3rem;
+  }
+  .h1{
+    padding-right: 0;
+  }
+  .container1{
+    color:white;
+  }
+}

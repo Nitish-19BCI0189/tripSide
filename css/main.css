@@ -1,0 +1,38 @@
+body{
+  margin:0;
+  padding:0;
+}
+section.zoom{
+  width:100%;
+  height:1000px;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+}
+section.zoom:before{
+  content:'';
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  height:200px;
+  z-index:1000;
+  background: linear-gradient(transparent, #fff);
+}
+section.zoom .layer1{
+  position: absolute;
+  left:40%;
+  width:100%;
+  transform:translateX(-50%);
+}
+section.zoom .layer2{
+  position: absolute;
+  right:0;
+  width:100%;
+}
+section.zoom .text{
+  position: absolute;
+  right:0;
+  width:100%;
+  transform:translateY(50%);
+}
